@@ -1,0 +1,124 @@
+body {
+color : rgb(30, 30, 30);
+font-family: 'Noto Sans', sans-serif;
+font-size: 18px;
+background-color: rgb(240,240,240);
+background: url(../Images/prpl-background.jpg) no-repeat center fixed;
+-webkit-background-size: cover;
+}
+
+h1, h2, h3 {
+font-family: 'Oxygen', sans-serif; 
+text-align: center;
+}
+
+h1 {
+color: #5b2287
+}
+
+h3 {
+ font-style: bolder;
+}
+
+a {
+text-decoration: none;
+color: #792f9e
+transition: color 0.3s ease;
+}
+
+a:hover {
+ color: rgb(100,100,100);
+ text-decoration: none;
+}
+
+.container {
+	width: 700px
+	margin: 40px auto;
+}
+.card-white {
+	width: 600px;
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,1); 
+	padding: 30px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-purple {
+	background-color: #792f9e;
+	color: white;
+	margin: 5px;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.btn-purple:hover {
+	background-color: rgb(100,100,100);
+	color: white;
+}
+
+#aoc p {
+	margin-bottom: 40px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+.list-inline i {
+	color: #792f9e;
+	font-size: 50px;
+}
+.list-inline i:hover {
+	color: rgb(100,100,100)
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    }
+   .card-white {
+   	width: 600px;
+   }
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .card-white {
+  	width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+  .card-white {
+  	width: 300px
+  }
+}
+
+.video-responsive { 
+overflow:hidden; 
+padding-bottom:56.25%; 
+position:relative; 
+height:0;
+}
+
+.video-responsive iframe {
+left:0; 
+top:0; 
+height:100%;
+width:100%;
+position:absolute;
+}
